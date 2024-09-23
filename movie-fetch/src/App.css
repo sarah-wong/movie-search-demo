@@ -4,3 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+.flexbox{
+  display:flex;
+}
+.movieInfo{
+  list-style:none;
+  text-align:left;
+}
+.movieInfo li{
+  border-bottom:1px solid white;
+  line-height:2em;
+}

@@ -26,12 +26,8 @@ function App() {
 
   return (
     <>
-      <Form
-        getMovie={getMovie}
-      />
-      <MovieDisplay
-        movie={movie}
-      />
+      <Form getMovie={getMovie}/>
+      <MovieDisplay movie={movie}/>
     </>
   )
 }
