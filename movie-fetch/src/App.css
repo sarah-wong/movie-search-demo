@@ -4,13 +4,19 @@
   padding: 2rem;
   text-align: center;
 }
+.pageTitle{
+  font-size:4rem;
+  text-transform:uppercase;
+  color:red;
+}
+.movieDisplay{
+  width:85vw;
+  max-width:750px;
+}
+
+.movieName{
+  font-size:3rem;
+}
 .flexbox{
   display:flex;
-}
-.movieInfo{
-  list-style:none;
-}
-.movieInfo li{
-  border-bottom:1px solid white;
-  line-height:2em;
 }

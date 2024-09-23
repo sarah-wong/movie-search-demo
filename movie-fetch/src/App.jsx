@@ -3,7 +3,6 @@ import './App.css'
 import MovieDisplay from './components/MovieDisplay'
 import Form from './components/Form'
 
-
 const API_KEY = '46b77f89'
 
 function App() {
@@ -26,6 +25,7 @@ function App() {
 
   return (
     <>
+      <h1 className="pageTitle">Fakeflix</h1>
       <Form getMovie={getMovie}/>
       <MovieDisplay movie={movie}/>
     </>
